@@ -16,7 +16,7 @@ public class MainMenuController : MonoBehaviour
 
     private void Awake()
     {
-        // 🔹 Find button objects in the scene by name and get their Button components
+        // Find button objects in the scene by name and get their Button components
         Button_Start = GameObject.Find("Button_Start").GetComponent<Button>();
         Button_Quit = GameObject.Find("Button_Quit").GetComponent<Button>();
     }
@@ -26,7 +26,7 @@ public class MainMenuController : MonoBehaviour
         // Set screen resolution and fullscreen mode
         Screen.SetResolution(2560, 1440, FullScreenMode.FullScreenWindow);
 
-        // 🔹 Bind button click events
+        // Bind button click events
         Button_Start.onClick.AddListener(() =>
         {
             StartGame();

@@ -2,7 +2,10 @@
 I created a simple 3D rogue-like game using Unity.
 
 ## Game name
-Little Adventurer
+Little Adventurer  
+![Mainmenu](figure/mainmenu.png "Mainmenu")
+![Game](figure/game.png "Game")
+
 
 ## Objective
 - The goal of the game is to defeat all waves of enemies, survive, and reach victory once all enemies are cleared.

@@ -41,7 +41,7 @@ public class GameManage : MonoBehaviour
 
     void Start()
     {
-        // 🔹 Set resolution and initialize UI after one frame
+        // Set resolution and initialize UI after one frame
         Screen.SetResolution(2560, 1440, FullScreenMode.FullScreenWindow);
 
         // Use coroutine to wait until all UI objects are active in the scene
@@ -74,7 +74,7 @@ public class GameManage : MonoBehaviour
 
         // Log warning if UI references are missing
         if (_cointext == null || _healthslider == null)
-            Debug.LogWarning("⚠️ UI elements not found. Check object names in the scene.");
+            Debug.LogWarning(" UI elements not found. Check object names in the scene.");
 
         // Bind button click events to their respective methods
         ResumeButton?.onClick.AddListener(Resume);
